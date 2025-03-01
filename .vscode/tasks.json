@@ -1,0 +1,38 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "builds dll",
+            "command": "cl.exe",
+            "args": [
+                "/Ox",
+                "/Os",
+                "/Oy",
+                "/GR-",
+                "/EHs-c-",
+                "/MT",
+                "/Gy",
+                "/nologo",
+                "/LD",
+                "/utf-8",
+                "/Fe:${workspaceFolder}\\build\\symsrv.dll",
+                "/Fo:${workspaceFolder}\\obj\\",
+                "${workspaceFolder}\\src\\main.cpp",
+                "/link",
+                "User32.lib"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "literally build dll"
+        }
+    ],
+    "version": "2.0.0"
+}
