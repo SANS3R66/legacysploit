@@ -5,7 +5,7 @@ mega pro level 0 luacapi exploit (idk how do i make level 6) for 2019M Roblox. g
 
 doesnt use shitty retarded ass methods for execution like scanning scriptcontext in memory
 
-this thing is getting job **WaitingScriptJob** from **TaskScheduler** jobs and then getting **DataModel** and then getting **ScriptContext** using **DataModel** (basically ScriptContext is a child of DataModel)!!!
+this thing is getting job **WaitingScriptJob** from **TaskScheduler** jobs and then getting **DataModel** and then getting **ScriptContext** using **DataModel** (basically ScriptContext is a child of DataModel) (iterating child is pretty ass too)!!!
 
 and yuh after getting **ScriptContext** this baby gets global lua state and creating new lua thread for more rizz (so this gives full access to lua_state)
 
