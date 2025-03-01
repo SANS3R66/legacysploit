@@ -111,7 +111,7 @@ void main()
 
     RLua::lua_getfield(L, -10002, "game");
     printf("global type: %d\n", RLua::lua_type(L, -1));
-    RLua::lua_pushstring(L, "nigger");
+    RLua::lua_pushstring(L, "white man");
     RLua::lua_setfield(L, -2, "Name");
     RLua::lua_pop(L, 1);
 }
